@@ -1,0 +1,371 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <table>
+    <i>1</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>2</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>2</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>5</jump>
+    <accept>false</accept>
+    <stack>true</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>3</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>11</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>false</error>
+    <action />
+  </table>
+  <table>
+    <i>4</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>0</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>true</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>5</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>6</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>6</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>7</jump>
+    <accept>true</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>7</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>стрелка</string>
+    </terminals>
+    <jump>8</jump>
+    <accept>true</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>8</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>9</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action>A1</action>
+  </table>
+  <table>
+    <i>9</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+      <string>пустая_лексема</string>
+    </terminals>
+    <jump>15</jump>
+    <accept>false</accept>
+    <stack>true</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>10</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>перевод_строки</string>
+    </terminals>
+    <jump>11</jump>
+    <accept>true</accept>
+    <stack>false</stack>
+    <return>true</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>11</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>12</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>12</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>5</jump>
+    <accept>false</accept>
+    <stack>true</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>13</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>11</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>false</error>
+    <action />
+  </table>
+  <table>
+    <i>14</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>0</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>true</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>15</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>17</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>false</error>
+    <action />
+  </table>
+  <table>
+    <i>16</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>пустая_лексема</string>
+    </terminals>
+    <jump>21</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>17</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>18</jump>
+    <accept>true</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>18</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>19</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action>A2</action>
+  </table>
+  <table>
+    <i>19</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+      <string>действие</string>
+    </terminals>
+    <jump>23</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>false</error>
+    <action />
+  </table>
+  <table>
+    <i>20</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>0</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>true</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>21</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>пустая_лексема</string>
+    </terminals>
+    <jump>22</jump>
+    <accept>true</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>22</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>23</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>true</return>
+    <error>true</error>
+    <action>A3</action>
+  </table>
+  <table>
+    <i>23</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>25</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>false</error>
+    <action />
+  </table>
+  <table>
+    <i>24</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>действие</string>
+    </terminals>
+    <jump>29</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>25</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+    </terminals>
+    <jump>26</jump>
+    <accept>true</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>26</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>27</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action>A4</action>
+  </table>
+  <table>
+    <i>27</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+      <string>действие</string>
+    </terminals>
+    <jump>23</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>false</error>
+    <action />
+  </table>
+  <table>
+    <i>28</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>0</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>true</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>29</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>действие</string>
+    </terminals>
+    <jump>30</jump>
+    <accept>true</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action />
+  </table>
+  <table>
+    <i>30</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>31</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>true</error>
+    <action>A5</action>
+  </table>
+  <table>
+    <i>31</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>лексема</string>
+      <string>действие</string>
+    </terminals>
+    <jump>23</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>false</return>
+    <error>false</error>
+    <action />
+  </table>
+  <table>
+    <i>32</i>
+    <terminals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <jump>0</jump>
+    <accept>false</accept>
+    <stack>false</stack>
+    <return>true</return>
+    <error>true</error>
+    <action />
+  </table>
+</DocumentElement>
